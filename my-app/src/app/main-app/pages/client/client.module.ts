@@ -6,14 +6,16 @@ import { ComponetsModule } from '../../componets/componets.module';
 import { ClientLayoutComponent } from '../../layouts/client-layout/client-layout.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { RoomDetailComponent } from './room-detail/room-detail.component';
+import { TestComponent } from './test/test.component';
 
 
 
 @NgModule({
   declarations: [
-    HomePageComponent,
     ClientLayoutComponent,
-    RoomDetailComponent
+    HomePageComponent,
+    RoomDetailComponent,
+    TestComponent
   ],
   imports: [SharedModule, ComponetsModule, RouterModule.forChild(ClientRoutes.routes())],
   exports: [RouterModule]

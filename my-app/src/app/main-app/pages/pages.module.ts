@@ -12,11 +12,7 @@ import { HomePageComponent } from './client/home-page/home-page.component';
     ClientModule,
     RouterModule.forRoot(
       [
-        {
-          path: '',
-          component: HomePageComponent,
-          pathMatch: 'full',
-        },
+        
       ],
       {
         scrollPositionRestoration: 'top',
